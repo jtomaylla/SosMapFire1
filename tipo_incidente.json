@@ -1,0 +1,32 @@
+{"tipo_incidente":
+	{
+		"1":{"nombre_incidente":"Abuso de autoridad","tipo_incidente_img":"ic_abuso.png"},
+		"2":{"nombre_incidente":"Accidente de personas","tipo_incidente_img":"ic_accidente.png"},
+		"3":{"nombre_incidente":"Accidente de transito","tipo_incidente_img":"ic_transito.png"},
+		"4":{"nombre_incidente":"Acoso callejero","tipo_incidente_img":"ic_acoso.png"},
+		"5":{"nombre_incidente":"Actos inmorales","tipo_incidente_img":"ic_inmoral.png"},
+		"6":{"nombre_incidente":"Animales perdidos","tipo_incidente_img":"ic_animal.png"},
+		"7":{"nombre_incidente":"Bullying","tipo_incidente_img":"ic_bullying.png"},
+		"8":{"nombre_incidente":"Deshechos","tipo_incidente_img":"ic_desecho.png"},
+		"9":{"nombre_incidente":"Emergencia medica","tipo_incidente_img":"ic_emergencia.png"},
+		"10":{"nombre_incidente":"Homicidio","tipo_incidente_img":"ic_homicidio.png"},
+		"11":{"nombre_incidente":"Incendio","tipo_incidente_img":"ic_incendio.png"},
+		"12":{"nombre_incidente":"Maltrato animal","tipo_incidente_img":"ic_maltrato.png"},
+		"13":{"nombre_incidente":"Manifestaciones","tipo_incidente_img":"ic_manifestacion.png"},
+		"14":{"nombre_incidente":"Objeto sospechoso","tipo_incidente_img":"ic_objeto.png"},
+		"15":{"nombre_incidente":"Otros","tipo_incidente_img":"ic_otro.png"},
+		"16":{"nombre_incidente":"Personas desaparecidas","tipo_incidente_img":"ic_desaparecido.png"},
+		"17":{"nombre_incidente":"Prófugo","tipo_incidente_img":"ic_profugo.png"},
+		"18":{"nombre_incidente":"Robo/Hurto","tipo_incidente_img":"ic_robo.png"},
+		"19":{"nombre_incidente":"Ruidos molestos","tipo_incidente_img":"ic_ruido.png"},
+		"20":{"nombre_incidente":"Secuestro","tipo_incidente_img":"ic_secuestro.png"},
+		"21":{"nombre_incidente":"Sospechoso","tipo_incidente_img":"ic_sospechoso.png"},
+		"22":{"nombre_incidente":"Trafico de armas de fuego","tipo_incidente_img":"ic_arma.png"},
+		"23":{"nombre_incidente":"Trafico de drogas","tipo_incidente_img":"ic_droga.png"},
+		"24":{"nombre_incidente":"Trafico de personas","tipo_incidente_img":"ic_trata.png"},
+		"25":{"nombre_incidente":"Vandalismo/Delincuencia","tipo_incidente_img":"ic_vandalismo.png"},
+		"26":{"nombre_incidente":"Vía publica","tipo_incidente_img":"ic_via.png"},
+		"27":{"nombre_incidente":"Violencia","tipo_incidente_img":"ic_violencia.png"}
+	}
+}
+	

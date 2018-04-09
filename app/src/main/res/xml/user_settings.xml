@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_myaccount">
+
+        <Preference
+            android:title="@string/pref_username"
+            android:summary="@string/pref_alias"
+            android:key="@string/pref_username_key" />
+
+        <EditTextPreference
+            android:title="@string/pref_email"
+            android:summary="@string/pref_email_value"
+            android:key="@string/pref_email_key" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_advanced">
+
+        <CheckBoxPreference
+            android:title="@string/pref_receivenotification"
+            android:summary="@string/pref_question"
+            android:key="@string/pref_receivenotification_key"
+            android:defaultValue="@string/pref_rec_notif_default_value" />
+
+        <ListPreference
+            android:title="@string/pref_country"
+            android:key="@string/pref_country_key"
+            android:entries="@array/country_entries"
+            android:entryValues="@array/country_values" />
+
+    </PreferenceCategory>
+
+
+
+
+<!--    <PreferenceCategory
+        android:title="Sub Screens">
+
+        <PreferenceScreen
+            android:key="voicemail_category"
+            android:title="Voicemail"
+            android:persistent="false">
+
+            <Preference
+                android:title="Provider"
+                android:summary="Airtel"
+                android:key="provider" />
+
+            &lt;!&ndash; and other preference objects ... &ndash;&gt;
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>-->
+
+</PreferenceScreen>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/tools">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/tvwIncidentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtincidenttype" />
+        <Spinner
+            android:id="@+id/spnIncidentType"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tvwViaType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtviatype" />
+        <Spinner
+            android:id="@+id/spnViaType"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tvw_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtdescription" />
+
+        <EditText
+            android:id="@+id/edt_description"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_weight="1"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tvwSourceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtsource_type" />
+        <Spinner
+            android:id="@+id/spnSourceType"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvIncidentDate"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="30dip"
+                    android:textSize="14sp"
+                    android:text="@string/txtincident_date" />
+                <TextView
+                    android:id="@+id/tvIncidentTime"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="30dip"
+                    android:textSize="14sp"
+                    android:text="@string/txtincident_time" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvwIncidentDate"
+                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                    android:text=""/>
+                <TextView
+                    android:id="@+id/tvwIncidentTime"
+                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                    android:text=""/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvw_latitude"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtlatitude" />
+                <TextView
+                    android:id="@+id/tvw_longitude"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtlongitude" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/edt_latitude"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:inputType="text" />
+                <EditText
+                    android:id="@+id/edt_longitude"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:inputType="text" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvw_incidenteimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtincidente_image" />
+                <ImageView
+                    android:id="@+id/addIncidenteImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_black_24dp"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageLabel"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@android:drawable/presence_offline" />
+            </TableRow>
+        </TableLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvw_source"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/txtsource" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edt_source"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:inputType="text" />-->
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+

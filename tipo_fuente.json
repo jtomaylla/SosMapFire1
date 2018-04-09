@@ -1,0 +1,13 @@
+{"tipo_fuente":
+	{
+		"1":{"nombre_fuente":"Anonima"},
+		"2":{"nombre_fuente":"Entidad Policial"},
+		"3":{"nombre_fuente":"Usuario"},
+		"4":{"nombre_fuente":"Efectivo Policial"},
+		"5":{"nombre_fuente":"Diario"},
+		"6":{"nombre_fuente":"Radio"},
+		"7":{"nombre_fuente":"Canal de TV"},
+		"8":{"nombre_fuente":"Otros"},
+		"9":{"nombre_fuente":"Vía publica"}
+	}
+}

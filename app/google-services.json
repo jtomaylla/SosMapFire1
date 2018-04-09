@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17261011293",
+    "firebase_url": "https://sosmapfire-a2cba.firebaseio.com",
+    "project_id": "sosmapfire-a2cba",
+    "storage_bucket": "sosmapfire-a2cba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17261011293:android:ddcf177a20df6b55",
+        "android_client_info": {
+          "package_name": "com.ecandle.firebase.sosmapfire1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17261011293-s7u5ms018r6j94ccr0ppm8mg7mn97kna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecandle.firebase.sosmapfire1",
+            "certificate_hash": "4370d859434c4f5da334d316d33d418ca1a9971c"
+          }
+        },
+        {
+          "client_id": "17261011293-jcdqnhbvene7eagiign3f2cervlq6e6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8hPAYf5f8Qwi7Y5QT8cuuCHqydL-YGWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17261011293-jcdqnhbvene7eagiign3f2cervlq6e6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

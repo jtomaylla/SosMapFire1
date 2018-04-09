@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">SosMapFire1</string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <string name="configuration">Configuracion</string>
+    <string name="alarm">Configurar Alarma</string>
+    <string name="load_incident_type">Cargar Datos Tablas</string>
+    <string name="load_source">Lista Tipo Incidente</string>
+    <string name="list_tipo_incidente">Lista Tipo Incidente</string>
+    <string name="list_incidentes">Lista Incidentes</string>
+    <string name="create">Crear Incidente</string>
+    <string name="show_map">Mostrar Mapa</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_back">To exit press back one more time</string>
+
+    <string name="txtincidenttype">Tipo Incidente</string>
+    <string name="txtviatype">Tipo Via</string>
+    <string name="txtdescription">Descripcion</string>
+
+    <string name="txtincident_date">Fecha</string>
+    <string name="txtincident_time">Hora</string>
+    <string name="txtsource_type"> Tipo de Fuente</string>
+    <string name="txtsource">Fuente</string>
+    <string name="txtlatitude">Latitud</string>
+    <string name="txtlongitude">Longitud</string>
+    <string name="txtincidente_image">Imagen/Foto</string>
+    <string name="save_incident">Guardar</string>
+
+    <string name="element_text">Element</string>
+    <string name="item_element_text">This is element #</string>
+    <string name="middle">This is the middle!</string>
+
+
+    <string name="pref_tunnel_key">pref_tunnel_key</string>
+    <string name="pref_tunnel_mode_key">pref_tunnel_mode_key</string>
+    <string name="tunnel_mode_entry_value_disabled">disabled</string>
+    <string name="tunnel_mode_entry_value_3G_only">3G_only</string>
+    <string name="tunnel_mode_entry_value_always">always</string>
+    <string name="tunnel_mode_entry_value_auto">auto</string>
+
+    <string name="pref_settings">Settings</string>
+
+    <string name="pref_myaccount">My Account</string>
+
+    <string name="pref_username">Username</string>
+    <string name="pref_alias">jtomaylla</string>
+    <string name="pref_username_key">username</string>
+
+    <string name="pref_email">Email</string>
+    <string name="pref_email_value">juan.tomaylla@gmail.com</string>
+    <string name="pref_email_key">email</string>
+
+    <string name="pref_country_key">country</string>
+    <string name="pref_country">Country</string>
+    <string-array name="country_entries">
+        <item>Peru</item>
+        <item>EEUU</item>
+        <item>Brasil</item>
+    </string-array>
+    <string-array name="country_values">
+        <item>PE</item>
+        <item>US</item>
+        <item>BR</item>
+    </string-array>
+
+    <string name="pref_advanced">Advanced</string>
+    <string name="pref_receivenotification">Receive Notifications</string>
+    <string name="pref_question">Want to receive Push Notifications ?</string>
+    <string name="pref_receivenotification_key">receiveNotifications</string>
+    <string name="pref_rec_notif_default_value">true</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_hour">Alarm Hour</string>
+    <string name="pref_title_minute">Alarm Minute</string>
+    <string name="pref_default_value_hour">0</string>
+    <string name="pref_default_value_minute">0</string>
+    <string name="pref_alarm_settings">Alarm Settings</string>
+
+    <string name="pref_default_time">00:00</string>
+    <string name="pref_title_time">Time Settings</string>
+    <string name="add_incidente">New Incidente</string>
+    <string name="edit_incidente">Edit Incidente</string>
+    <string name="navigation_view_header_title">Notes</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Enter your incidente here.</string>
+    <string name="empty_incidente_message">Notes cannot be empty</string>
+    <string name="successfully_saved_incidente_message">Note saved</string>
+    <string name="cannot_connect_to_camera_message">Cannot connect to camera</string>
+    <string name="take_picture">Add picture</string>
+    <string name="take_picture_error">Could not take picture</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="no_statistics_available">No statistics</string>
+    <string name="no_data">No data</string>
+    <string name="loading">LOADING</string>
+
+    <string name="pref_title_noti_frequency">Notification frequency</string>
+    <string-array name="pref_noti_frequency_titles">
+        <item>3 minutes</item>
+        <item>6 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_noti_frequency_values">
+        <item>3</item>
+        <item>6</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>-1</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="atms">Atms</string>
+    <string name="banks">Banks</string>
+</resources>

@@ -1,0 +1,14 @@
+{
+	"tipo_via":
+	{
+	    "1":{"nombre_via":"Condominio"},
+		"2":{"nombre_via":"Domicilio"},
+		"3":{"nombre_via":"Edificio"},
+		"4":{"nombre_via":"Institución educativa"},
+		"5":{"nombre_via":"Local comercial"},
+		"6":{"nombre_via":"Otros"},
+		"7":{"nombre_via":"Transporte publico"},
+		"8":{"nombre_via":"Vehículo"},
+		"9":{"nombre_via":"Vía publica"}
+	}
+}

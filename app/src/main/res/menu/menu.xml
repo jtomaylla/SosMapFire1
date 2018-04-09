@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sign_out_menu"
+        android:title="@string/sign_out"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/alarm_menu"
+        android:title="@string/alarm"
+        />
+    <item android:id="@+id/list_incidentes_menu"
+        android:title="@string/list_incidentes"
+        />
+    <item android:id="@+id/load_incident_menu"
+        android:title="@string/load_incident_type"
+        />
+    <item android:id="@+id/list_tipo_incidente_menu"
+        android:title="@string/list_tipo_incidente"
+        />
+    <item android:id="@+id/load_create_menu"
+        android:title="@string/create"
+        />
+    <item android:id="@+id/configuration_menu"
+        android:title="@string/configuration"
+        />
+    <item android:id="@+id/show_map_menu"
+        android:title="@string/show_map"
+        />
+</menu>
